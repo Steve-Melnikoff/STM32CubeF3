@@ -7138,7 +7138,7 @@ typedef struct
 #define TIM_DMAR_DMAB             TIM_DMAR_DMAB_Msk                            /*!<DMA register for burst accesses */
 
 /*******************  Bit definition for TIM16_OR register  *********************/
-#define TIM16_OR_TI1_RMP_Pos      (6U)                                         
+#define TIM16_OR_TI1_RMP_Pos      (0U)                                         
 #define TIM16_OR_TI1_RMP_Msk      (0x3UL << TIM16_OR_TI1_RMP_Pos)               /*!< 0x000000C0 */
 #define TIM16_OR_TI1_RMP          TIM16_OR_TI1_RMP_Msk                         /*!<TI1_RMP[1:0] bits (TIM16 Input 1 remap) */
 #define TIM16_OR_TI1_RMP_0        (0x1UL << TIM16_OR_TI1_RMP_Pos)               /*!< 0x00000040 */
